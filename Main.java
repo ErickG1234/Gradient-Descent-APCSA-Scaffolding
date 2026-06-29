@@ -12,7 +12,7 @@ public class Main {
     
        // TODO:Training Loop - trains the model by adjusting the weight based on the calculated gradient and learning rate
         
-        // subtract the weight by the learningRate times the gradient 
+        // Subtract the weight by the learningRate times the gradient 
         // Put these print statements INSIDE your loop so you can watch the model learn!
         // System.out.println("Weight: " + weight);
         // System.out.println("Error: " + calculateError(pace, overallRatings, weight));
@@ -33,11 +33,11 @@ public class Main {
 
         // Iterate through the players 
 
-        // calculate the error
+        // Calculate the error
            
-        // square the error
+        // Square the error
            
-        // divide it by 6 (amount of players)
+        // Divide it by 6 (amount of players)
 
         return error;  
     }
