@@ -12,7 +12,6 @@ public class Main {
     
        // This loop trains the model by adjusting the weight based on the calculated gradient and learning rate
         for (int i = 0; i < 10; i++) {
-            // subtract the weight by the learningRate times the gradient
             weight = /* TODO: subtract the weight by the learningRate times the gradient */
             System.out.println("Weight: " + weight);
             System.out.println("Error: " + calculateError(pace, overallRatings, weight));
