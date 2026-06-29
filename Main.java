@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        // Player's Speed
+        // Player's Speed (Pace)
         double[] pace = {70.0, 75.0, 80.0, 85.0, 90.0, 95.0};
 
         // Player's Overall Performance
@@ -10,12 +10,13 @@ public class Main {
         double weight = 0.0;
         double learningRate = 0.0001;
     
-       // This loop trains the model by adjusting the weight based on the calculated gradient and learning rate
-        for (int i = 0; i < 10; i++) {
-            weight = /* TODO: subtract the weight by the learningRate times the gradient */
-            System.out.println("Weight: " + weight);
-            System.out.println("Error: " + calculateError(pace, overallRatings, weight));
-        }
+       // TODO:Training Loop - trains the model by adjusting the weight based on the calculated gradient and learning rate
+        
+        // subtract the weight by the learningRate times the gradient 
+        // Put these print statements INSIDE your loop so you can watch the model learn!
+        // System.out.println("Weight: " + weight);
+        // System.out.println("Error: " + calculateError(pace, overallRatings, weight));
+        
         
         System.out.println("Final Weight: " + weight);
         
